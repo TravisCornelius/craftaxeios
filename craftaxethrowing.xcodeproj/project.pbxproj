@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		967D2E3D697EF22E3748BBF7 /* Pods_craftaxethrowingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9786764C321D35AD2D6557 /* Pods_craftaxethrowingUITests.framework */; };
+		A30E274B394C3F64176A8493 /* Pods_craftaxethrowing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4639FECB6F62F166ACDAAF7A /* Pods_craftaxethrowing.framework */; };
+		AE019036EFE28F0D4892772A /* Pods_craftaxethrowingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A73B83C6756903424F9D0B7 /* Pods_craftaxethrowingTests.framework */; };
+		E60A17B41F9C1373008522BE /* MainWithUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60A17B31F9C1373008522BE /* MainWithUser.swift */; };
+		E6F9C4BA1F97B565001B14A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F9C4B91F97B565001B14A4 /* AppDelegate.swift */; };
+		E6F9C4BC1F97B565001B14A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F9C4BB1F97B565001B14A4 /* ViewController.swift */; };
+		E6F9C4BF1F97B565001B14A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F9C4BD1F97B565001B14A4 /* Main.storyboard */; };
+		E6F9C4C11F97B565001B14A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F9C4C01F97B565001B14A4 /* Assets.xcassets */; };
+		E6F9C4C41F97B565001B14A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F9C4C21F97B565001B14A4 /* LaunchScreen.storyboard */; };
+		E6F9C4CF1F97B566001B14A4 /* craftaxethrowingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F9C4CE1F97B566001B14A4 /* craftaxethrowingTests.swift */; };
+		E6F9C4DA1F97B566001B14A4 /* craftaxethrowingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F9C4D91F97B566001B14A4 /* craftaxethrowingUITests.swift */; };
+		E6F9C4E81F97B777001B14A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6F9C4E71F97B777001B14A4 /* GoogleService-Info.plist */; };
+		E6F9C4EA1F97D977001B14A4 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F9C4E91F97D977001B14A4 /* MainController.swift */; };
+		E6F9C4EC1F97E98E001B14A4 /* craft.png in Resources */ = {isa = PBXBuildFile; fileRef = E6F9C4EB1F97E98D001B14A4 /* craft.png */; };
+		E6F9C4EE1F98051D001B14A4 /* ChooseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F9C4ED1F98051D001B14A4 /* ChooseController.swift */; };
+		E6F9C4F01F980642001B14A4 /* StandardAxeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F9C4EF1F980642001B14A4 /* StandardAxeController.swift */; };
+		E6F9C4F21F980778001B14A4 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F9C4F11F980778001B14A4 /* ProfileController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6F9C4CB1F97B566001B14A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6F9C4AE1F97B565001B14A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6F9C4B51F97B565001B14A4;
+			remoteInfo = craftaxethrowing;
+		};
+		E6F9C4D61F97B566001B14A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6F9C4AE1F97B565001B14A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6F9C4B51F97B565001B14A4;
+			remoteInfo = craftaxethrowing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02EBD6D04E852625E665289C /* Pods-craftaxethrowing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-craftaxethrowing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-craftaxethrowing/Pods-craftaxethrowing.debug.xcconfig"; sourceTree = "<group>"; };
+		3A9786764C321D35AD2D6557 /* Pods_craftaxethrowingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_craftaxethrowingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4639FECB6F62F166ACDAAF7A /* Pods_craftaxethrowing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_craftaxethrowing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		618E69750917192C9AFB1ED1 /* Pods-craftaxethrowing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-craftaxethrowing.release.xcconfig"; path = "Pods/Target Support Files/Pods-craftaxethrowing/Pods-craftaxethrowing.release.xcconfig"; sourceTree = "<group>"; };
+		6A73B83C6756903424F9D0B7 /* Pods_craftaxethrowingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_craftaxethrowingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B2C7CC91AE7ED70BB537FD /* Pods-craftaxethrowingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-craftaxethrowingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-craftaxethrowingTests/Pods-craftaxethrowingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B41929026E367EC698217683 /* Pods-craftaxethrowingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-craftaxethrowingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-craftaxethrowingTests/Pods-craftaxethrowingTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD9362D1A5F74F1B133209DD /* Pods-craftaxethrowingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-craftaxethrowingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-craftaxethrowingUITests/Pods-craftaxethrowingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E60A17B31F9C1373008522BE /* MainWithUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWithUser.swift; sourceTree = "<group>"; };
+		E6F9C4B61F97B565001B14A4 /* craftaxethrowing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = craftaxethrowing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F9C4B91F97B565001B14A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6F9C4BB1F97B565001B14A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6F9C4BE1F97B565001B14A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6F9C4C01F97B565001B14A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6F9C4C31F97B565001B14A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6F9C4C51F97B565001B14A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6F9C4CA1F97B566001B14A4 /* craftaxethrowingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = craftaxethrowingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F9C4CE1F97B566001B14A4 /* craftaxethrowingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = craftaxethrowingTests.swift; sourceTree = "<group>"; };
+		E6F9C4D01F97B566001B14A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6F9C4D51F97B566001B14A4 /* craftaxethrowingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = craftaxethrowingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F9C4D91F97B566001B14A4 /* craftaxethrowingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = craftaxethrowingUITests.swift; sourceTree = "<group>"; };
+		E6F9C4DB1F97B566001B14A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6F9C4E71F97B777001B14A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E6F9C4E91F97D977001B14A4 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		E6F9C4EB1F97E98D001B14A4 /* craft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = craft.png; sourceTree = SOURCE_ROOT; };
+		E6F9C4ED1F98051D001B14A4 /* ChooseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseController.swift; sourceTree = "<group>"; };
+		E6F9C4EF1F980642001B14A4 /* StandardAxeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardAxeController.swift; sourceTree = "<group>"; };
+		E6F9C4F11F980778001B14A4 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		E858D07220F96D9BE000BE17 /* Pods-craftaxethrowingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-craftaxethrowingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-craftaxethrowingUITests/Pods-craftaxethrowingUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6F9C4B31F97B565001B14A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30E274B394C3F64176A8493 /* Pods_craftaxethrowing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F9C4C71F97B566001B14A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE019036EFE28F0D4892772A /* Pods_craftaxethrowingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F9C4D21F97B566001B14A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967D2E3D697EF22E3748BBF7 /* Pods_craftaxethrowingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080C6E8E5B0CF6862FC22EC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02EBD6D04E852625E665289C /* Pods-craftaxethrowing.debug.xcconfig */,
+				618E69750917192C9AFB1ED1 /* Pods-craftaxethrowing.release.xcconfig */,
+				A9B2C7CC91AE7ED70BB537FD /* Pods-craftaxethrowingTests.debug.xcconfig */,
+				B41929026E367EC698217683 /* Pods-craftaxethrowingTests.release.xcconfig */,
+				DD9362D1A5F74F1B133209DD /* Pods-craftaxethrowingUITests.debug.xcconfig */,
+				E858D07220F96D9BE000BE17 /* Pods-craftaxethrowingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		68616F221DDADEAE651FB4A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4639FECB6F62F166ACDAAF7A /* Pods_craftaxethrowing.framework */,
+				6A73B83C6756903424F9D0B7 /* Pods_craftaxethrowingTests.framework */,
+				3A9786764C321D35AD2D6557 /* Pods_craftaxethrowingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6F9C4AD1F97B565001B14A4 = {
+			isa = PBXGroup;
+			children = (
+				E6F9C4B81F97B565001B14A4 /* craftaxethrowing */,
+				E6F9C4CD1F97B566001B14A4 /* craftaxethrowingTests */,
+				E6F9C4D81F97B566001B14A4 /* craftaxethrowingUITests */,
+				E6F9C4B71F97B565001B14A4 /* Products */,
+				080C6E8E5B0CF6862FC22EC9 /* Pods */,
+				68616F221DDADEAE651FB4A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E6F9C4B71F97B565001B14A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6F9C4B61F97B565001B14A4 /* craftaxethrowing.app */,
+				E6F9C4CA1F97B566001B14A4 /* craftaxethrowingTests.xctest */,
+				E6F9C4D51F97B566001B14A4 /* craftaxethrowingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6F9C4B81F97B565001B14A4 /* craftaxethrowing */ = {
+			isa = PBXGroup;
+			children = (
+				E6F9C4E71F97B777001B14A4 /* GoogleService-Info.plist */,
+				E6F9C4EB1F97E98D001B14A4 /* craft.png */,
+				E6F9C4B91F97B565001B14A4 /* AppDelegate.swift */,
+				E6F9C4BB1F97B565001B14A4 /* ViewController.swift */,
+				E6F9C4E91F97D977001B14A4 /* MainController.swift */,
+				E60A17B31F9C1373008522BE /* MainWithUser.swift */,
+				E6F9C4ED1F98051D001B14A4 /* ChooseController.swift */,
+				E6F9C4F11F980778001B14A4 /* ProfileController.swift */,
+				E6F9C4EF1F980642001B14A4 /* StandardAxeController.swift */,
+				E6F9C4BD1F97B565001B14A4 /* Main.storyboard */,
+				E6F9C4C01F97B565001B14A4 /* Assets.xcassets */,
+				E6F9C4C21F97B565001B14A4 /* LaunchScreen.storyboard */,
+				E6F9C4C51F97B565001B14A4 /* Info.plist */,
+			);
+			path = craftaxethrowing;
+			sourceTree = "<group>";
+		};
+		E6F9C4CD1F97B566001B14A4 /* craftaxethrowingTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6F9C4CE1F97B566001B14A4 /* craftaxethrowingTests.swift */,
+				E6F9C4D01F97B566001B14A4 /* Info.plist */,
+			);
+			path = craftaxethrowingTests;
+			sourceTree = "<group>";
+		};
+		E6F9C4D81F97B566001B14A4 /* craftaxethrowingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6F9C4D91F97B566001B14A4 /* craftaxethrowingUITests.swift */,
+				E6F9C4DB1F97B566001B14A4 /* Info.plist */,
+			);
+			path = craftaxethrowingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6F9C4B51F97B565001B14A4 /* craftaxethrowing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6F9C4DE1F97B566001B14A4 /* Build configuration list for PBXNativeTarget "craftaxethrowing" */;
+			buildPhases = (
+				C28C0850FFCB55C4356D8F5A /* [CP] Check Pods Manifest.lock */,
+				E6F9C4B21F97B565001B14A4 /* Sources */,
+				E6F9C4B31F97B565001B14A4 /* Frameworks */,
+				E6F9C4B41F97B565001B14A4 /* Resources */,
+				93418175E4BB4F16790EC9EE /* [CP] Embed Pods Frameworks */,
+				CADE4D4B1608BC41240E249D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = craftaxethrowing;
+			productName = craftaxethrowing;
+			productReference = E6F9C4B61F97B565001B14A4 /* craftaxethrowing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6F9C4C91F97B566001B14A4 /* craftaxethrowingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6F9C4E11F97B566001B14A4 /* Build configuration list for PBXNativeTarget "craftaxethrowingTests" */;
+			buildPhases = (
+				9C822645964B53C261C92E24 /* [CP] Check Pods Manifest.lock */,
+				E6F9C4C61F97B566001B14A4 /* Sources */,
+				E6F9C4C71F97B566001B14A4 /* Frameworks */,
+				E6F9C4C81F97B566001B14A4 /* Resources */,
+				123B2EC13471B709AA5F0B1A /* [CP] Embed Pods Frameworks */,
+				F37109DBB7FCFFC73CD7CF56 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6F9C4CC1F97B566001B14A4 /* PBXTargetDependency */,
+			);
+			name = craftaxethrowingTests;
+			productName = craftaxethrowingTests;
+			productReference = E6F9C4CA1F97B566001B14A4 /* craftaxethrowingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6F9C4D41F97B566001B14A4 /* craftaxethrowingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6F9C4E41F97B566001B14A4 /* Build configuration list for PBXNativeTarget "craftaxethrowingUITests" */;
+			buildPhases = (
+				55D69480F6410249407CF966 /* [CP] Check Pods Manifest.lock */,
+				E6F9C4D11F97B566001B14A4 /* Sources */,
+				E6F9C4D21F97B566001B14A4 /* Frameworks */,
+				E6F9C4D31F97B566001B14A4 /* Resources */,
+				F623351A5642A0505337D09A /* [CP] Embed Pods Frameworks */,
+				D938541E50C62D9F9F4C61E2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6F9C4D71F97B566001B14A4 /* PBXTargetDependency */,
+			);
+			name = craftaxethrowingUITests;
+			productName = craftaxethrowingUITests;
+			productReference = E6F9C4D51F97B566001B14A4 /* craftaxethrowingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6F9C4AE1F97B565001B14A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Travis Cornelius";
+				TargetAttributes = {
+					E6F9C4B51F97B565001B14A4 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Manual;
+					};
+					E6F9C4C91F97B566001B14A4 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E6F9C4B51F97B565001B14A4;
+					};
+					E6F9C4D41F97B566001B14A4 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E6F9C4B51F97B565001B14A4;
+					};
+				};
+			};
+			buildConfigurationList = E6F9C4B11F97B565001B14A4 /* Build configuration list for PBXProject "craftaxethrowing" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6F9C4AD1F97B565001B14A4;
+			productRefGroup = E6F9C4B71F97B565001B14A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6F9C4B51F97B565001B14A4 /* craftaxethrowing */,
+				E6F9C4C91F97B566001B14A4 /* craftaxethrowingTests */,
+				E6F9C4D41F97B566001B14A4 /* craftaxethrowingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6F9C4B41F97B565001B14A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F9C4C41F97B565001B14A4 /* LaunchScreen.storyboard in Resources */,
+				E6F9C4E81F97B777001B14A4 /* GoogleService-Info.plist in Resources */,
+				E6F9C4C11F97B565001B14A4 /* Assets.xcassets in Resources */,
+				E6F9C4EC1F97E98E001B14A4 /* craft.png in Resources */,
+				E6F9C4BF1F97B565001B14A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F9C4C81F97B566001B14A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F9C4D31F97B566001B14A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		123B2EC13471B709AA5F0B1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-craftaxethrowingTests/Pods-craftaxethrowingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55D69480F6410249407CF966 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-craftaxethrowingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93418175E4BB4F16790EC9EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-craftaxethrowing/Pods-craftaxethrowing-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-craftaxethrowing/Pods-craftaxethrowing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C822645964B53C261C92E24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-craftaxethrowingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C28C0850FFCB55C4356D8F5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-craftaxethrowing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CADE4D4B1608BC41240E249D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-craftaxethrowing/Pods-craftaxethrowing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D938541E50C62D9F9F4C61E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-craftaxethrowingUITests/Pods-craftaxethrowingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F37109DBB7FCFFC73CD7CF56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-craftaxethrowingTests/Pods-craftaxethrowingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F623351A5642A0505337D09A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-craftaxethrowingUITests/Pods-craftaxethrowingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6F9C4B21F97B565001B14A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F9C4EE1F98051D001B14A4 /* ChooseController.swift in Sources */,
+				E6F9C4EA1F97D977001B14A4 /* MainController.swift in Sources */,
+				E6F9C4F01F980642001B14A4 /* StandardAxeController.swift in Sources */,
+				E6F9C4BC1F97B565001B14A4 /* ViewController.swift in Sources */,
+				E60A17B41F9C1373008522BE /* MainWithUser.swift in Sources */,
+				E6F9C4BA1F97B565001B14A4 /* AppDelegate.swift in Sources */,
+				E6F9C4F21F980778001B14A4 /* ProfileController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F9C4C61F97B566001B14A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F9C4CF1F97B566001B14A4 /* craftaxethrowingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F9C4D11F97B566001B14A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F9C4DA1F97B566001B14A4 /* craftaxethrowingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6F9C4CC1F97B566001B14A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6F9C4B51F97B565001B14A4 /* craftaxethrowing */;
+			targetProxy = E6F9C4CB1F97B566001B14A4 /* PBXContainerItemProxy */;
+		};
+		E6F9C4D71F97B566001B14A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6F9C4B51F97B565001B14A4 /* craftaxethrowing */;
+			targetProxy = E6F9C4D61F97B566001B14A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6F9C4BD1F97B565001B14A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6F9C4BE1F97B565001B14A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6F9C4C21F97B565001B14A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6F9C4C31F97B565001B14A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6F9C4DC1F97B566001B14A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6F9C4DD1F97B566001B14A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6F9C4DF1F97B566001B14A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02EBD6D04E852625E665289C /* Pods-craftaxethrowing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = craftaxethrowing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybringback.craftaxethrowing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6F9C4E01F97B566001B14A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 618E69750917192C9AFB1ED1 /* Pods-craftaxethrowing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = craftaxethrowing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybringback.craftaxethrowing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6F9C4E21F97B566001B14A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B2C7CC91AE7ED70BB537FD /* Pods-craftaxethrowingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = craftaxethrowingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybringback.craftaxethrowingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/craftaxethrowing.app/craftaxethrowing";
+			};
+			name = Debug;
+		};
+		E6F9C4E31F97B566001B14A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41929026E367EC698217683 /* Pods-craftaxethrowingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = craftaxethrowingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybringback.craftaxethrowingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/craftaxethrowing.app/craftaxethrowing";
+			};
+			name = Release;
+		};
+		E6F9C4E51F97B566001B14A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD9362D1A5F74F1B133209DD /* Pods-craftaxethrowingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = craftaxethrowingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybringback.craftaxethrowingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = craftaxethrowing;
+			};
+			name = Debug;
+		};
+		E6F9C4E61F97B566001B14A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E858D07220F96D9BE000BE17 /* Pods-craftaxethrowingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = craftaxethrowingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mybringback.craftaxethrowingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = craftaxethrowing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6F9C4B11F97B565001B14A4 /* Build configuration list for PBXProject "craftaxethrowing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6F9C4DC1F97B566001B14A4 /* Debug */,
+				E6F9C4DD1F97B566001B14A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6F9C4DE1F97B566001B14A4 /* Build configuration list for PBXNativeTarget "craftaxethrowing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6F9C4DF1F97B566001B14A4 /* Debug */,
+				E6F9C4E01F97B566001B14A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6F9C4E11F97B566001B14A4 /* Build configuration list for PBXNativeTarget "craftaxethrowingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6F9C4E21F97B566001B14A4 /* Debug */,
+				E6F9C4E31F97B566001B14A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6F9C4E41F97B566001B14A4 /* Build configuration list for PBXNativeTarget "craftaxethrowingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6F9C4E51F97B566001B14A4 /* Debug */,
+				E6F9C4E61F97B566001B14A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6F9C4AE1F97B565001B14A4 /* Project object */;
+}

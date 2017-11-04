@@ -1,0 +1,6 @@
+framework module Pods_craftaxethrowing {
+  umbrella header "Pods-craftaxethrowing-umbrella.h"
+
+  export *
+  module * { export * }
+}
